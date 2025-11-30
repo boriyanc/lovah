@@ -3,6 +3,7 @@ import PasswordScreen from './components/PasswordScreen';
 import MainScreen from './components/StickersScreen'; // MainScreen is now the unified dashboard
 import MusicPlayer from './components/MusicPlayer';
 import { AppStage } from './types';
+import { HashRouter as Router } from 'react-router-dom';
 
 const App: React.FC = () => {
   const [stage, setStage] = useState<AppStage>(AppStage.PASSWORD);
