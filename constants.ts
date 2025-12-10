@@ -8,18 +8,10 @@ export const BACKGROUND_MUSIC: Song = {
   url: "/media/seasons.mp3" 
 };
 
-// --- CUSTOM IMAGES ---
-// HOW TO USE YOUR OWN PHOTOS:
-// 1. Create a folder named 'public' in your project root.
-// 2. Create a folder named 'photo' INSIDE 'public'.
-// 3. Put your images (cake.png, candle.png, etc.) inside 'public/photo/'.
-// 4. Ensure filenames match or update the strings below.
-
-// Note: PNGs with transparent backgrounds work best for the cake and candles!
 export const CAKE_IMAGE_URL = "/media/photo/cake.png"; 
 export const CANDLE_IMAGE_URL = "/media/photo/candle.png";
 
-// These represent specific memories (Floating Photos)
+// polaroid photos
 export const MEMORIES_LIST: StickerData[] = [
   { id: 1, x: 0, y: 0, imgUrl: "/media/photo/roblox.png", text: "me carrying you in roblox:)", delay: 0, duration: 15, rotation: -5 },
   { id: 2, x: 0, y: 0, imgUrl: "/media/photo/cat.jpg", text: "confession: i only love cats because you love them. co-parent 3 cats with me?", delay: 2, duration: 18, rotation: 3 },

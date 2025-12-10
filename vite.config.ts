@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     plugins: [react()];
-    base: "/lovah";
+    base: "/lovah/";
     const env = loadEnv(mode, '.', '');
     return {
       server: {
